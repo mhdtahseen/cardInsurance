@@ -11,9 +11,8 @@ export class CardSidebarComponent implements OnInit {
   @Input() cardTitle: string = '';
   @Input() cardImage: string = '';
   @Input() cardColor: string = '';
+
   constructor() {}
 
-  ngOnInit(): void {
-    console.log(this.cardContent);
-  }
+  ngOnInit(): void {}
 }

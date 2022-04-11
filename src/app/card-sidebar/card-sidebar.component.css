@@ -2,6 +2,11 @@
   --borderLeft: #fff;
 }
 
+@font-face {
+  font-family: Noto Sans;
+  src: url("../../assets/fonts/NotoSans-Regular.woff");
+}
+
 .card-container {
   max-width: 243px;
   max-height: 162px;
